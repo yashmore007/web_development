@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar {
+    background-color: white;
+    position: relative;
+    opacity: 0.2;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.list li {
+    list-style: none;
+    margin: 28px 65px;
+}
+
+.list li a {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.list li a:hover {
+    background-color: rgb(20, 9, 9);
+    color: bisque;
+}
+
+.content::before {
+    content: "";
+    background: url('background2.webp') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.details {
+    float: right;
+    margin: 278px 23px;
+    width: 715px;
+}
+
+.Hprimary {
+    text-align: center;
+    font-size: 1.9rem;
+
+}
+
+.Hsecondary {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn button {
+    padding: 7px 33px;
+    margin: 28px 0px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

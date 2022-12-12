@@ -1,0 +1,26 @@
+.Fbox img{
+  height: 22rem;
+  width: 28rem;
+}
+
+.Fbox{
+  display: flex;
+  flex-direction: column;
+}
+.homeclass {
+    
+    width: 336px;
+    ;
+}
+.navcon ul li {
+    
+    margin: 0px 7px;
+    padding: 18px 8px;
+    
+}
+.navcon ul li a {
+ 
+    padding: 0px 0px;
+    border-radius: 16px;
+    font-size: 18px;
+}

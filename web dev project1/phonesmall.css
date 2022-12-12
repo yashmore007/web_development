@@ -1,0 +1,28 @@
+.Fbox img {
+    height: 21rem;
+    width: 23.5rem;
+}
+.navcon{
+ flex-direction: column;
+}
+.navElements{
+ display: flex;
+ flex-direction: column;
+}
+#logo{
+ display: block;
+ margin: auto;
+}
+.navcon ul li {
+    
+    margin: 0px 127px;
+    padding: 4px 12px;
+    
+}
+.homeclass{
+  width: 380px;
+}
+.Fbox{
+    display: flex;
+    flex-direction: column;
+  }

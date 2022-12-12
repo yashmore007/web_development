@@ -1,0 +1,16 @@
+.lines li {
+    
+    margin: 11px 18px;
+}
+.Data {
+   
+    
+    width: 380px;
+    margin: 200px 0px;
+}
+.lines{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}

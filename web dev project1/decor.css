@@ -1,0 +1,106 @@
+
+*{
+ margin: 0;
+ padding: 0;
+}
+.navcon{
+ display: flex;
+ background-color: rgb(221, 124, 44);
+ opacity: 0.5;
+}
+.navcon img {
+  width: 86px;
+  height: 69px;
+}
+.navcon ul{
+   display: flex;
+}
+
+.navcon ul li a{
+  text-decoration: none;
+  padding: 10px 10px ;
+  border-radius: 24px;
+  font-size: 18px;
+ 
+  
+}
+.navcon ul li {
+  list-style: none;
+  margin: 0px 60px;
+  padding: 25px 12px;
+  border-radius: 25px;
+  
+}
+.navcon ul li a:hover {
+  background-color: white;
+  color: black;
+}
+.search{
+ display: flex;
+
+ 
+ 
+}
+.navcon input{
+  float: right;
+}
+.home::before{
+ content: "";
+ background: url('background1.jpg') no-repeat center center/cover  ;
+ height: 100%;
+ width: 100%;
+ z-index: -1;
+ opacity: 0.6;
+ position: absolute;
+ height: 436px;
+}
+.homeclass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 436px;
+  width: 649px;
+  margin: auto;
+}
+.Hprimary{
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 1.9rem;
+}
+.Hsecondary{
+ text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 1.4rem;
+}
+.btn {
+  margin: 0px 9px;
+  padding: 4px 5px;
+}
+.btn button {
+  padding: 10px 32px;
+  border-radius: 25px;
+  background-color: rgb(196, 196, 231);
+  cursor: pointer;
+}
+
+/* features section started */
+.Fbox{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+
+.Fbox img {
+  height: 472px;
+  width: 755px;
+}
+.Fbox .Fline{
+ background-color: rgb(205, 235, 137);
+ border-radius: 34px;
+}
+
+footer{
+ background-color: black;
+ color: white;
+}
