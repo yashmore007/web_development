@@ -1,0 +1,10 @@
+.lines li{
+ margin: 15px 15px;
+ 
+}
+.description{
+  justify-content: center;
+}
+.description button{
+  margin-right: 50px ;
+}

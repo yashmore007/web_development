@@ -4,7 +4,9 @@
 }
 
 #navbar {
-    background-color: rgb(231, 87, 74);
+    background-color: rgb(245, 239, 239);
+    opacity: 0.7;
+    
 }
 
 .navData {
@@ -30,5 +32,32 @@
 }
 
 .lines li a:hover {
-    background-color: rgba(255, 255, 255, 0.442);
+    background-color: rgba(23, 22, 22, 0.442);
+}
+
+.data::before {
+    content: "";
+    background: url('background.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+}
+
+.description {
+    display: flex;
+    justify-content: right;
+    margin: 321px 207px;
+}
+.description button {
+    cursor: pointer;
+    padding: 9px 36px;
+    background-color: rgb(140, 121, 207);
+    border-radius: 4px;
+}
+.description button:hover{
+   background-color: rgb(146, 218, 230);
 }
