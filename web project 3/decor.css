@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+    display: flex;
+    background-color: rgb(131, 197, 131);
+    opacity: 0.6;
+}
+
+
+
+.logo img {
+    height: 53px;
+    width: 73px;
+}
+
+.navData{
+ display: flex;
+
+}
+.navData li {
+    list-style: none;
+    margin: 17px 99px;
+}
+.navData li a{
+  text-decoration: none;
+  color: black;
+  padding: 9px;
+  font-size: 1.2rem;
+  font-family: 'Kanit', sans-serif;
+
+}
+.navData li a:hover{
+  background-color: rgb(36, 101, 36);
+  border-radius: 10px;
+}
+.Hprimary{
+  /* text-align: center; */
+  font-size: 1.7rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+.Hsecondary{
+  /* text-align: center; */
+  font-size: 1.4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+.information {
+    float: right;
+    margin: 223px 0px;
+}
+.information h1{
+  font-size: 6.9rem;
+}
+.information h3{
+  font-size: 3.9rem;
+}
+
+.details::before{
+  content: "";
+  background: url('background.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index:-1;
+}
+
+
+
