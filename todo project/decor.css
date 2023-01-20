@@ -1,0 +1,14 @@
+div {
+    height: 77px;
+    /* width: 455px; */
+    background-color: rgb(154, 191, 222);
+    color: black;
+    text-align: center;
+    margin: 24px 0px;
+    font-size: 1.7rem;
+    border-radius: 16px;
+}
+
+h3{
+ text-align: center;
+}
